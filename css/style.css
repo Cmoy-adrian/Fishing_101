@@ -1,13 +1,17 @@
+
+/* Makes changes to everything on pg */
 * {
     font-family: sans-serif;
 
 }
 
+/* Moves title to center */
 header {
     text-align: center;
     
 }
 
+/* Image at top of pg */
 #header_img {
     width: 45%;
     border-radius: 20px;
@@ -15,31 +19,59 @@ header {
     margin: auto;
 }
 
+/* Layout of main page body */
 body {
     background-color: beige;
 }
 
+/* Pg 1 sections */
+/* Section to change how 1st sec is displayed */
 #before_sec {
     width: 50%;
-  background-color: rgba(173, 216, 230, 0.623);
-  border: 3px solid black; 
-  border-radius: 20px;
-  padding: 10px; 
+    background-color: rgba(173, 216, 230, 0.623);
+    border: 3px solid black; 
+    border-radius: 20px;
+    padding: 10px; 
 }
 
+/* Section to change how 2nd sec is displayed */
 #remember_sec {
     width: 50%;
-  background-color: rgba(173, 216, 230, 0.623);
-  border: 3px solid black; 
-  border-radius: 20px;
-  padding: 10px; 
+    background-color: rgba(173, 216, 230, 0.623);
+    border: 3px solid black; 
+    border-radius: 20px;
+    padding: 10px; 
 }
 
+/* Flexbox wrapper */
 #bef_rem_wrapper {
     display: flex;
     gap: 20px;
 }
 
+/* Pg 2 sections */
+/* Section to change how 1st sec is displayed */
+#bass_target_sec {
+
+    width: 50%;
+    background-color: rgba(173, 216, 230, 0.623);
+    border: 3px solid black; 
+    border-radius: 20px;
+    padding: 10px; 
+    margin: auto;
+}
+
+/* Section to change how 2nd sec is displayed */
+#bass_get_started_sec {
+    width: 75%;
+    background-color: rgba(173, 216, 230, 0.623);
+    border: 3px solid black; 
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto; 
+}
+
+/* Displays page buttons */
 .button {
     background-color: #0c6d39;
     border-radius: 8px;
@@ -52,6 +84,7 @@ body {
     margin: 10px;
 }
 
+/* How the links on page are displayed */
 .page_links {
     color: white;
 }
@@ -63,4 +96,9 @@ body {
   justify-content: space-around;
   padding: 0;
   margin: 0;
+}
+
+/* Aligns text with the 'other_page' id */
+#other_pages {
+    text-align: center;
 }
