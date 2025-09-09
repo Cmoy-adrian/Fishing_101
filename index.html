@@ -2,6 +2,9 @@
 <html>
     <head> 
         <title>Fishing 101</title> 
+        
+        <!-- Link to style file -->
+        <link rel="stylesheet" href="./css/style.css" />
     </head> 
 
     <body>
@@ -11,17 +14,18 @@
             <p>
                 The things I've learned in my time fishing!
             </p>
-            <!-- Shows an image of a fiserman, for page aesthetics. -->
-            <img 
-            src = ./img/guy_fishing.jpg
-            alt = "Man holding a spinning rod, reeling in his line."
-            width = 25%
-            >
+            
+            
         </header>
 
-        <main>
+        <main id = "index_content">
             <!-- Holds the body of the main articles on this page. -->
-            <article>
+             <!-- Shows an image of a fiserman, for page aesthetics. -->
+            <img id = "header_img"
+            src = ./img/guy_fishing.jpg
+            alt = "Man holding a spinning rod, reeling in his line."
+            width = 25%>
+            <article id = "main_article">
                 <!-- Gives the reader the purpose of the following article. -->
                 <h2>Big Fish, Little Fish, One Fish, Two Fish -</h2>
                 <p>
@@ -29,90 +33,92 @@
                     I believe that my knowledge could take you from one or two fish, to a full ice chest of fish!
 
                 </p>
-                <section>
-                    <!-- First Section -->
-                    <h3>Before You Leave -</h3>
-                
-                    <ol>
-                        <!-- List of stuff to do/ know before you go on a fishing trip. -->
-                        <li>Know what fish you're targeting.</li>
-                        <ul>
-                            <!-- Embedded list to hold extra content. -->
-                            <li>Never go fishing without knowing what species you are targeting, 
-                            if you don't, you're bound to catch nothing.</li>
-                        </ul>
-                        <li>A little research can go along way.</li>
-                        <ul>
-                            <li>If you found yourself on this page, then goodjob!
-                                That means you are already following this rule, even if you didn't know it. <br>
-                                Researching when to fish for your target species, what to use, and where to go,
-                                makes you more confident as a angler. <br>
-                                Besides fishing wouldn't be very fun if you had no idea what you were doing.
-                            </li>
-                        </ul>
-                        <li>Rig up BEFORE leaving.</li>
-                        <ul>
-                            <li>Pretty self explantory, rigging up will allow you to began fishing sooner.
-                                The more you fish, the more you catch!
-                            </li>
-                        </ul>
-                        <li>Make sure you have extra tackle.</li>
-                        <ul>
-                            <li>Let's be honest, everyone snags there hook and everyone eventually snaps there line.
-                                Bringing extra tackle ensures that one bad snag won't end your trip early.
-                            </li>
-                        </ul>
-                    </ol>
-                    <p>
-                        If you follow this list, I ensure that you will have a long, and enjoyable, time out on the water.
-                    </p>
-                </section>
-                <section>
-                    <!-- Second Section -->
-                    <h3>Good Things to Remember -</h3>
-                    <ol>
-                        <!-- List of things to remember when fishing. -->
-                        <li>Patience is key.</li>
-                        <ul>
-                            <!-- Embedded list to hold extra content. -->
-                            <li>Patience is what seperates the average from the best anglers. 
-                                Everyone has had periods of time where they don't feel a bite, but having the patience to keep casting is key. <br>
-                                Besides, not knowing when a fish is going to bite makes it fun!
-                            </li>
-                        </ul>
-                        <li>You won't always walk away with tons of fish.</li>
-                        <ul>
-                            <li>
-                                I know I said that I can help you get an "ice chest full" of fish, but to be honest I lied.
-                                No matter how much knowledge you have you will never be guaranteed a fish. <br>
-                                Even so, each trip is a learning experience that will help you fish in the future.
-                                I'm still learning things about fishing everyday!
-                            </li>
-                        </ul>
-                        <li>HAVE FUN!!!</li>
-                        <ul>
-                            <li>
-                                The most important thing to remember while fishing! 
-                                If you aren't having fun, then you shouldn't be fishing.
-                            </li>
-                        </ul>
-                    </ol>
-                    <p>
-                        Remembering these things will make you a better angler in general, and more enjoyable to be around.
-                    </p>
-                </section>
+                <div id = "bef_rem_wrapper">
+                    <section id = "before_sec">
+                        <!-- First Section -->
+                        <h3>Before You Leave -</h3>
+                    
+                        <ol>
+                            <!-- List of stuff to do/ know before you go on a fishing trip. -->
+                            <li>Know what fish you're targeting.</li>
+                            <ul>
+                                <!-- Embedded list to hold extra content. -->
+                                <li>Never go fishing without knowing what species you are targeting, 
+                                if you don't, you're bound to catch nothing.</li>
+                            </ul>
+                            <li>A little research can go along way.</li>
+                            <ul>
+                                <li>If you found yourself on this page, then goodjob!
+                                    That means you are already following this rule, even if you didn't know it.
+                                    Researching when to fish for your target species, what to use, and where to go,
+                                    makes you more confident as a angler.
+                                    Besides fishing wouldn't be very fun if you had no idea what you were doing.
+                                </li>
+                            </ul>
+                            <li>Rig up BEFORE leaving.</li>
+                            <ul>
+                                <li>Pretty self explantory, rigging up will allow you to began fishing sooner.
+                                    The more you fish, the more you catch!
+                                </li>
+                            </ul>
+                            <li>Make sure you have extra tackle.</li>
+                            <ul>
+                                <li>Let's be honest, everyone snags there hook and everyone eventually snaps there line.
+                                    Bringing extra tackle ensures that one bad snag won't end your trip early.
+                                </li>
+                            </ul>
+                        </ol>
+                        <p>
+                            If you follow this list, I ensure that you will have a long, and enjoyable, time out on the water.
+                        </p>
+                    </section>
+                    <section id = "remember_sec">
+                        <!-- Second Section -->
+                        <h3>Good Things to Remember -</h3>
+                        <ol>
+                            <!-- List of things to remember when fishing. -->
+                            <li>Patience is key.</li>
+                            <ul>
+                                <!-- Embedded list to hold extra content. -->
+                                <li>Patience is what seperates the average from the best anglers. 
+                                    Everyone has had periods of time where they don't feel a bite, but having the patience to keep casting is key. <br>
+                                    Besides, not knowing when a fish is going to bite makes it fun!
+                                </li>
+                            </ul>
+                            <li>You won't always walk away with tons of fish.</li>
+                            <ul>
+                                <li>
+                                    I know I said that I can help you get an "ice chest full" of fish, but to be honest I lied.
+                                    No matter how much knowledge you have you will never be guaranteed a fish.
+                                    Even so, each trip is a learning experience that will help you fish in the future.
+                                    I'm still learning things about fishing everyday!
+                                </li>
+                            </ul>
+                            <li>HAVE FUN!!!</li>
+                            <ul>
+                                <li>
+                                    The most important thing to remember while fishing! 
+                                    If you aren't having fun, then you shouldn't be fishing.
+                                </li>
+                            </ul>
+                        </ol>
+                        <p>
+                            Remembering these things will make you a better angler in general, and more enjoyable to be around.
+                        </p>
+                    </section>
+                </div>
             </article>
         </main>
 
         <footer>
             <!-- Holds links to related pages -->
-            <nav>
+            <nav id = "footer">
                 <h2>Navigation -</h2>
                 <p>
                     Below are links to pages on specific types of fish:
                 </p>
                 <ul>
-                    <li><a href = ./page2.html>Bass Fishing</a></li>
+                    <li class = button><a href = ./page2.html>Bass Fishing</a></li>
                 </ul>
             </nav>
         </footer>

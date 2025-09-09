@@ -2,6 +2,9 @@
 <html>
     <head> 
         <title>Fishing 101: Bass Fishing</title> 
+
+        <!-- Link to style file -->
+        <link rel="stylesheet" href="./css/style.css" />
     </head> 
 
     <body>
@@ -11,17 +14,17 @@
             <p>
                 Probably the most commonly targeted fish!
             </p>
-            <!-- Shows an image of a bass, for page aesthetics. -->
-            <img
-            src = ./img/bass_jumping.jpg
-            alt = "A bass jumping out of the water with a lure in its mouth."
-            width = 25%
-            >
+            
         </header>
         
-        <main>
-            <article>
-                <section>
+        <main id = "bass_pg_content">
+            <!-- Shows an image of a bass, for page aesthetics. -->
+            <img id = "header_img"
+            src = ./img/bass_jumping.jpg
+            alt = "A bass jumping out of the water with a lure in its mouth."
+            width = 25%>
+            <article id = "main_article">
+                <section id = "bass_target_sec">
                     <!-- Section explaining why bass are targeted. -->
                     <h2>Why Are Bass Commonly Targeted?</h2>
                     <p>
@@ -31,7 +34,7 @@
                         On top of that, bass fishing has one of the lowest bars for entry, making it very beginner friendly.
                     </p>
                 </section>
-                <section>
+                <section id = "bass_get_started_sec">
                     <!-- Section explaining what gear you need to get started. -->
                     <h2>What Do You Need to Get Started?</h2>
                     <p>
@@ -77,10 +80,10 @@
 
         <footer>
             <!-- Holds links to related pages -->
-            <nav>
+            <nav id = "footer">
                 <h2>Other Pages -</h2>
                 <ul>
-                    <li><a href = ./index.html>Main Page</a></li>
+                    <li class = button ><a href = ./index.html>Main Page</a></li>
                 </ul>
             </nav>
         </footer>
